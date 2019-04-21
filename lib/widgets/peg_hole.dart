@@ -33,10 +33,7 @@ class PegHoleState extends State<PegHole> {
     return Container(
       child: DragTarget(
           builder: (context, List<Color> candidateData, rejectedData) {
-        return Circle(
-          color: color,
-          hasBorder: false,
-        );
+        return Circle(color: color);
       }, onAccept: (color) {
         if (appState.gameRunning && appState.activeRow == widget.row) {
           appState.pegColor(widget.slot, color);

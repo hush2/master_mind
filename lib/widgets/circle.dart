@@ -4,9 +4,8 @@ import 'package:flutter/material.dart';
 
 class Circle extends StatefulWidget {
   final Color color;
-  final bool hasBorder;
 
-  Circle({Key key, this.color, this.hasBorder = false}) : super(key: key);
+  Circle({Key key, this.color}) : super(key: key);
 
   @override
   _CircleState createState() => _CircleState();
@@ -21,9 +20,6 @@ class _CircleState extends State<Circle> {
       decoration: BoxDecoration(
         color: widget.color,
         shape: BoxShape.circle,
-        border: widget.hasBorder
-            ? Border.all(color: Colors.white30, width: 2)
-            : null,
       ),
     );
   }
