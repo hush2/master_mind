@@ -60,7 +60,7 @@ class InfoButton extends StatelessWidget {
                 Padding(
                   padding: const EdgeInsets.only(top: 20.0),
                   child: Image.asset(
-                    'images/hush2.png',
+                    'assets/hush2.png',
                     height: 80,
                   ),
                 ),
