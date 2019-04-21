@@ -21,6 +21,12 @@ Master Mind game in Flutter.
 
 Developed on `dev` branch.
 
+## download
+
+You can download from Google Play as [**Code Breaker**](https://play.google.com/store/apps/details?id=net.hush2.code_breaker).
+
+MasterMind™ is a registered trademark of Pressman Toy Corporation.
+
 ## license
 
 Apache 2.0
