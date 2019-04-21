@@ -68,7 +68,7 @@ class InfoButton extends StatelessWidget {
             ),
             actions: <Widget>[
               FlatButton(
-                child: Text('GITHUB'),
+                child: Text('GITHUB', style: TextStyle(color: Colors.green)),
                 onPressed: () => launch('https://github.com/hush2/master_mind'),
               ),
               FlatButton(
